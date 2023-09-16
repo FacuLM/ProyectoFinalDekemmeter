@@ -144,7 +144,7 @@ nav
             }
         }
     }
-    @media screen and (min-width: 320px) and (max-width:500px)
+    @media screen and (max-width:500px)
     {
     // Contactos
     .main-contacto
@@ -168,7 +168,8 @@ nav
             }
             .articleForm
             {
-                @include variables.alturaAncho;
+                // @include variables.alturaAncho;
+                width: 90%;
                 .articleFormDiv 
                 {                    
                     .formDiv-div
@@ -182,7 +183,6 @@ nav
                 }
                     .input-submit
                     {
-
                         width: 50%;
                         font-size: 1rem;
                     }
@@ -507,7 +507,7 @@ nav
         text-align: center;
     }
 }
-@media screen and (max-width:500px ) 
+@media screen and (max-width:500px) 
 {
     // Index
     .bodyIndex
@@ -577,7 +577,6 @@ nav
                 {
                     height: 200px;
                     background-size: 100%;
-                    
                     p
                     {
                         font-size: 10px;
